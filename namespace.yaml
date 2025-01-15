@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Namespace 
 metadata:
  name: frontend
-labels:
-  app: books
-  tier: frontend
+ labels:
+   app: books
+   tier: frontend
   

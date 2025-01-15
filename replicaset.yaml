@@ -1,23 +1,24 @@
-apiVersion: apps/v1
-kind: Replicaset
-metadata: 
+apiVersion: v1
+kind: ReplicaSet
+metadata:
   name: frontend
   labels:
     app: books
     tier: frontend
 spec:
-  Replicas: 3
+  replicas: 3
   selector:
-    matchlables:
+    matchLabels:
       tier: frontend
   template:
     metadata:
       labels:
-        tier: frontend  
+        tier: frontend
     spec:
       containers:
       - name: php-redis
-        image: us-docker.pkg.dev/google-samples/containers/gke/gb-frontend:v5     
+        image: us-docker.pkg.dev/google-samples/containers/gke/gb-frontend:v5
+     
 
 
 

@@ -1,0 +1,116 @@
+🟢 Beginner Concepts
+Start with the basics of what Kubernetes is and how it works.
+
+What is Kubernetes?
+
+Container orchestration
+
+Benefits over standalone Docker
+
+Kubernetes Architecture
+
+Master vs Worker nodes
+
+Components: API Server, Scheduler, Controller Manager, Kubelet, Kube-proxy
+
+Pods
+
+The smallest deployable unit
+
+Multi-container Pods
+
+ReplicaSets
+
+Ensuring a specified number of Pods are running
+
+Deployments
+
+Declarative updates to Pods and ReplicaSets
+
+Services
+
+ClusterIP, NodePort, LoadBalancer
+
+DNS service discovery
+
+Namespaces
+
+Logical separation within a cluster
+
+🟡 Intermediate Concepts
+ConfigMaps & Secrets
+
+Managing configuration and sensitive data
+
+Volumes & Persistent Volumes
+
+Storage for stateful applications
+
+PVCs and dynamic provisioning
+
+Resource Management
+
+Requests & limits for CPU/memory
+
+QoS classes
+
+Liveness & Readiness Probes
+
+Pod health checks
+
+Labels, Selectors & Annotations
+
+Organizing and querying Kubernetes resources
+
+Rolling Updates & Rollbacks
+
+Managing application lifecycle
+
+Helm
+
+Package manager for Kubernetes
+
+🔴 Advanced Concepts
+StatefulSets
+
+For stateful applications (like databases)
+
+DaemonSets
+
+Running a Pod on all (or specific) nodes
+
+Jobs & CronJobs
+
+Batch and scheduled tasks
+
+Network Policies
+
+Controlling network traffic between Pods
+
+Custom Resource Definitions (CRDs)
+
+Extending Kubernetes API
+
+Operators
+
+Automating application lifecycle with CRDs + controllers
+
+Security & RBAC
+
+Role-based access control
+
+Service accounts and Pod security policies
+
+Kubernetes Ingress
+
+External access to services
+
+Ingress controllers
+
+Cluster Monitoring & Logging
+
+Prometheus, Grafana, Fluentd, EFK stack
+
+Kubernetes Federation & Multi-Cluster Management
+
+Managing workloads across clusters
